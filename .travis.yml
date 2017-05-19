@@ -17,3 +17,4 @@ script:
   - chmod +x ./scripts/deploy.sh
   - cd scripts && ./build.sh
   - if [ "$TRAVIS_BRANCH" == "master" ]; then ./deploy.sh; fi
+  
